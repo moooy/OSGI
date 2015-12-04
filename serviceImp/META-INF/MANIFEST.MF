@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1449239776736
+Build-Jdk: 1.8.0_65
+Built-By: stronger
+Bundle-Activator: cn.evosoft.gap.serviceImp.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: serviceImp Maven Plugin
+Bundle-SymbolicName: serviceImp
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: cn.evosoft.gap.serviceImp;uses:="org.osgi.framework";ver
+ sion="0.0.1.SNAPSHOT",cn.evosoft.gap.serviceImp.service;uses:="cn.evoso
+ ft.gap.serviceProducer.service";version="0.0.1.SNAPSHOT"
+Import-Package: cn.evosoft.gap.serviceImp.service,cn.evosoft.gap.service
+ Producer.service,org.osgi.framework;version="[1.3,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326
