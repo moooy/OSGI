@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1449406949683
+Build-Jdk: 1.8.0_65
+Built-By: evosoft-C01
+Bundle-Activator: cn.evosoft.gap.bserviceImp.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: bserviceImp Maven Plugin
+Bundle-SymbolicName: bserviceImp
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: cn.evosoft.gap.bserviceImp;uses:="org.osgi.framework";ve
+ rsion="0.0.1.SNAPSHOT",cn.evosoft.gap.bserviceImp.service;uses:="cn.evo
+ soft.gap.bserviceProducer.service";version="0.0.1.SNAPSHOT"
+Import-Package: cn.evosoft.gap.bserviceProducer.service,org.osgi.framewo
+ rk;version="[1.3,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326
