@@ -26,11 +26,6 @@
       <version>1.0.0</version>
     </dependency>
     
-    <dependency>
-     <groupId>org.apache.aries.blueprint</groupId>
-     <artifactId>org.apache.aries.blueprint</artifactId>
-     <version>1.1.0</version>
-    </dependency>
   </dependencies>
 
   <build>
@@ -42,10 +37,10 @@
         <configuration>
           <manifestLocation>META-INF</manifestLocation>
           <instructions>
-            <Bundle-SymbolicName>${pom.artifactId}</Bundle-SymbolicName>
+            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
             <Bundle-Activator>cn.evosoft.gap.bserviceProducer.Activator</Bundle-Activator>
-            <Bundle-Version>${pom.version}</Bundle-Version>
-            <Export-Package>cn.evosoft.gap.bserviceProducer.service</Export-Package>
+            <Bundle-Version>${project.version}</Bundle-Version>
+            <Export-Package>cn.evosoft.gap.bserviceProducer.service;version=${project.version}</Export-Package>
           </instructions>
         </configuration>
       </plugin>

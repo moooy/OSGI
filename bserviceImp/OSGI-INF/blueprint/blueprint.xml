@@ -5,5 +5,5 @@
          init-method="startUp">
    </bean>
    <service ref="helloservice" 
-           interface="cn.evosoft.gap.bserviceProducer.service.HelloWorldService"  />
+           interface="cn.evosoft.gap.bserviceProducer.service.HelloWorldService"/>
 </blueprint>

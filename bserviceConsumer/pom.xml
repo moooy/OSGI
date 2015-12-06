@@ -3,11 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.evosoft.gap</groupId>
-  <artifactId>bserviceImp</artifactId>
+  <artifactId>bserviceConsumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
-  <name>bserviceImp Maven Plugin</name>
+  <name>bserviceConsumer Maven Plugin</name>
+
+  <!-- FIXME change it to the project's website -->
+  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,17 +23,10 @@
       <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
-    
     <dependency>
-      <groupId>org.apache.felix</groupId>
-      <artifactId>org.osgi.core</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    
-    <dependency>
-      <groupId>cn.evosoft.gap</groupId>
-      <artifactId>bserviceProducer</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+       <groupId>cn.evosoft.gap</groupId>
+       <artifactId>bserviceProducer</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
@@ -44,7 +40,6 @@
           <manifestLocation>META-INF</manifestLocation>
           <instructions>
             <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-Activator>cn.evosoft.gap.bserviceImp.Activator</Bundle-Activator>
             <Bundle-Version>${project.version}</Bundle-Version>
             <Import-Package>
               *
@@ -54,4 +49,4 @@
       </plugin>
     </plugins>
   </build>
-</project>
+  </project>
