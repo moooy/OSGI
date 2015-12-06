@@ -1,5 +1,13 @@
 Manifest-Version: 1.0
-Built-By: stronger
+Bundle-SymbolicName: cn.evosoft.gap.webapp
+Bundle-Name: webapp Maven Webapp
+Bundle-Version: 0.0.1.SNAPSHOT
+Built-By: evosoft-C01
+Bnd-LastModified: 1449379742259
+Bundle-ManifestVersion: 2
+Web-ContextPath: /webapp
 Build-Jdk: 1.8.0_65
-Created-By: Maven Integration for Eclipse
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-3.0.0.201509101326
+Webapp-Context: webapp
 
