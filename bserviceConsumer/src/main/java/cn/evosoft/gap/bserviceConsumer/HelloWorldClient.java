@@ -3,17 +3,17 @@ package cn.evosoft.gap.bserviceConsumer;
 import cn.evosoft.gap.bserviceProducer.service.HelloWorldService;
 
 public class HelloWorldClient {
-    HelloWorldService helloworldService = null;
+    HelloWorldService helloWorldService = null;
     public void startUp(){
     	System.out.println("client HelloWorld:About to excute a test ");
-    	helloworldService.Hello();
+    	helloWorldService.Hello();
     }
     
     public HelloWorldService getHelloWorldService(){
-    	return helloworldService;
+    	return helloWorldService;
     }
     
-    public void setHelloWorldservice(HelloWorldService helloWorldService){
-    	this.helloworldService = helloWorldService;
+    public void setHelloWorldService(HelloWorldService helloWorldService){
+    	this.helloWorldService = helloWorldService;
     }
 }

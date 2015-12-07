@@ -17,7 +17,7 @@ public class Activator implements BundleActivator {
 	public void start(BundleContext bundleContext) throws Exception {
 		Activator.context = bundleContext;
 		context.registerService(IHelloService.class.getName(), new HelloService(), null);
-		System.out.println("the service is registed");
+		/*System.out.println("the service is registed");*/
 	}
 
 	public void stop(BundleContext bundleContext) throws Exception {
