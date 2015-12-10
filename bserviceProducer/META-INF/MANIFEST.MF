@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1449468941916
+Bnd-LastModified: 1449751261494
 Build-Jdk: 1.8.0_65
 Built-By: evosoft-C01
 Bundle-Activator: cn.evosoft.gap.bserviceProducer.Activator
